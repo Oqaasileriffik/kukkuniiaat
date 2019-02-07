@@ -75,6 +75,9 @@ while ($a === 'grammar') {
 		}
 	}
 
+	// Hack to show alternatives
+	$rv['c'] = preg_replace('~ <R:([^>]+)>~', ' <R:$1> <AFR:$1>', $rv['c']);
+
 	$rv['c'] = preg_replace('~<(/?s\d+)-\d+>~', '<$1>', $rv['c']);
 
 	break;
