@@ -2,8 +2,8 @@ FROM debian:stretch
 
 LABEL vendor="Tino Didriksen" \
 	maintainer="Tino Didriksen <mail@tinodidriksen.com>" \
-	com.tinodidriksen.product="Kukkuniaat Backend" \
-	com.tinodidriksen.codename="kukkuniaat-backend"
+	com.tinodidriksen.product="Kukkuniiaat Backend" \
+	com.tinodidriksen.codename="kukkuniiaat-backend"
 
 ENV LANG=C.UTF-8 \
 	LC_ALL=C.UTF-8 \

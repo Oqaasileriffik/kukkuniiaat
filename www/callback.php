@@ -50,20 +50,20 @@ while ($a === 'grammar') {
 
 	$port = 12400;
 	for ($try=0 ; $try < 3 ; ++$try) {
-		//header('X-Kukkuniaat-Port: '.$port, false);
+		//header('X-Kukkuniiaat-Port: '.$port, false);
 		$s = fsockopen('localhost', $port, $errno, $errstr, 1);
 		if ($s === false) {
-			header('X-Kukkuniaat-Error: '.$errno, false);
+			header('X-Kukkuniiaat-Error: '.$errno, false);
 			continue;
 		}
-		//header('X-Kukkuniaat-10-Connect: '.(microtime(true) - $start), false);
+		//header('X-Kukkuniiaat-10-Connect: '.(microtime(true) - $start), false);
 		if (fwrite($s, $nonced."\n<END-OF-INPUT>\n") === false) {
-			header('X-Kukkuniaat-Error: '.$port, false);
+			header('X-Kukkuniiaat-Error: '.$port, false);
 			continue;
 		}
-		//header('X-Kukkuniaat-20-Write: '.(microtime(true) - $start), false);
+		//header('X-Kukkuniiaat-20-Write: '.(microtime(true) - $start), false);
 		$output = stream_get_contents($s);
-		//header('X-Kukkuniaat-30-Read: '.(microtime(true) - $start), false);
+		//header('X-Kukkuniiaat-30-Read: '.(microtime(true) - $start), false);
 		$output = trim($output);
 		if (!preg_match('~<s\d+-'.$nonce.'>\n~', $output)) {
 			$output = '';
