@@ -50,10 +50,10 @@ while (<STDIN>) {
       $wf = $1;
    }
    elsif (m@^\s+"@) {
-      if (m@ \?@) {
+      if (m@ \?$@) {
          $type = '@unknown';
       }
-      elsif (m@^\s+".*".+<spelled>@ && m@"<(.*?)>"@) {
+      elsif (m@^\s+".*".+<spelled>@ && m@ "(.*?)"S@) {
          $type = '@spell';
          push(@suggs, $1);
       }

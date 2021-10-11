@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:bullseye
 
 LABEL vendor="Tino Didriksen" \
 	maintainer="Tino Didriksen <mail@tinodidriksen.com>" \
@@ -12,10 +12,10 @@ ENV LANG=C.UTF-8 \
 	PERL_UNICODE=SDA
 
 RUN apt-get update
-RUN apt-get install -fy --no-install-recommends apt-utils
-RUN apt-get install -fy --no-install-recommends wget ca-certificates
+RUN apt-get install -qfy --no-install-recommends apt-utils
+RUN apt-get install -qfy --no-install-recommends wget ca-certificates
 RUN wget https://apertium.projectjj.com/apt/install-nightly.sh -O - | bash
-RUN apt-get install -fy --no-install-recommends \
+RUN apt-get install -qfy --no-install-recommends \
 		giella-kal \
 		divvun-gramcheck \
 		perl \
@@ -24,8 +24,8 @@ RUN apt-get install -fy --no-install-recommends \
 		libmldbm-sync-perl \
 		libnet-server-perl \
 		libstring-approx-perl
-RUN apt-get remove -fy wget ca-certificates apt-utils
-RUN apt-get autoremove -fy
+RUN apt-get remove -qfy wget ca-certificates apt-utils
+RUN apt-get autoremove -qfy
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*
 RUN groupadd -r speller && useradd --no-log-init -r -g speller speller
