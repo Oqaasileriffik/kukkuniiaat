@@ -1,7 +1,7 @@
-FROM debian:bullseye
+FROM amd64/ubuntu:focal
 
-LABEL vendor="Tino Didriksen" \
-	maintainer="Tino Didriksen <mail@tinodidriksen.com>" \
+LABEL vendor="Oqaasileriffik" \
+	maintainer="Tino Didriksen <tino@oqaasileriffik.gl>" \
 	com.tinodidriksen.product="Kukkuniiaat Backend" \
 	com.tinodidriksen.codename="kukkuniiaat-backend"
 
