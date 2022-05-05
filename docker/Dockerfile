@@ -1,9 +1,7 @@
 FROM amd64/ubuntu:focal
 
 LABEL vendor="Oqaasileriffik" \
-	maintainer="Tino Didriksen <tino@oqaasileriffik.gl>" \
-	com.tinodidriksen.product="Kukkuniiaat Backend" \
-	com.tinodidriksen.codename="kukkuniiaat-backend"
+	maintainer="Tino Didriksen <tino@oqaasileriffik.gl>"
 
 ENV LANG=C.UTF-8 \
 	LC_ALL=C.UTF-8 \
@@ -14,8 +12,9 @@ ENV LANG=C.UTF-8 \
 RUN apt-get update
 RUN apt-get install -qfy --no-install-recommends apt-utils
 RUN apt-get install -qfy --no-install-recommends wget ca-certificates
-RUN wget https://apertium.projectjj.com/apt/install-nightly.sh -O - | bash
-RUN apt-get install -qfy --no-install-recommends \
+RUN wget -q https://apertium.projectjj.com/apt/install-nightly.sh -O - | bash
+ARG CACHE_NONCE=1
+RUN echo "$CACHE_NONCE" && apt-get install -qfy --no-install-recommends \
 		giella-kal \
 		divvun-gramcheck \
 		perl \
