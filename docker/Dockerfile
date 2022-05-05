@@ -1,4 +1,4 @@
-FROM amd64/ubuntu:focal
+FROM amd64/ubuntu:jammy
 
 LABEL vendor="Oqaasileriffik" \
 	maintainer="Tino Didriksen <tino@oqaasileriffik.gl>"
