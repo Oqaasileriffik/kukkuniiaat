@@ -1,0 +1,19 @@
+<?php
+$GLOBALS['-l10n']['kal']['FTR_CLOSED'] = 'matoqqavoq';
+$GLOBALS['-l10n']['kal']['FTR_CONTACT'] = 'Attavik';
+$GLOBALS['-l10n']['kal']['FTR_HOURS'] = 'Ammasarfiit';
+$GLOBALS['-l10n']['kal']['FTR_MON_FRI'] = 'ataasinngorneq - tallimanngorneq';
+$GLOBALS['-l10n']['kal']['FTR_NEWS'] = 'Nutaarsiassarsisalerneq';
+$GLOBALS['-l10n']['kal']['FTR_NEWS_BUTTON'] = 'Allatsigit';
+$GLOBALS['-l10n']['kal']['FTR_NEWS_TEXT'] = 'Nutaarsiassaasivitsinnut allatsigit';
+$GLOBALS['-l10n']['kal']['FTR_SAT_SUN'] = 'arfininngorneq - sapaat';
+$GLOBALS['-l10n']['kal']['HDR_ABOUT'] = 'Kukkuniiaat pillugu paasissutissat';
+$GLOBALS['-l10n']['kal']['HDR_SUBTITLE'] = '&nbsp;';
+$GLOBALS['-l10n']['kal']['HDR_TITLE'] = 'Oqaasileriffik';
+$GLOBALS['-l10n']['kal']['LBL_EMAIL_ALL'] = 'Oqaasileriffik';
+$GLOBALS['-l10n']['kal']['SITE_PRODUCT'] = 'Kukkuniiaat';
+$GLOBALS['-l10n']['kal']['SITE_SUBTITLE'] = '&nbsp;';
+$GLOBALS['-l10n']['kal']['SITE_TITLE'] = 'Kukkuniiaat &laquo; Oqaasileriffik';
+$GLOBALS['-l10n']['kal']['TXT_ABOUT_PDF'] = 'Kukkuniiaat pillugu paasissutissat';
+$GLOBALS['-l10n']['kal']['TXT_SIDELOAD_010'] = 'Office Storemi Kukkuniiaat nassaarisinnaanngikkaanni imaluunniit domæne-limmik attaveqaraanni aatsaat qarasaasiamut administratorinit akueriteqqaarlugu aallersinnaasumik innersuussissutit makku aqqutigineqassapput:';
+$GLOBALS['-l10n']['kal']['URL_ABOUT_PDF'] = 'https://oqaasileriffik.gl/wp-content/uploads/2017/04/Kukkuniiaatip_oqaluttuassartaa.pdf';

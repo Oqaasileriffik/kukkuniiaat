@@ -1,0 +1,42 @@
+<?php
+$GLOBALS['-l10n']['eng']['FTR_CLOSED'] = 'Closed';
+$GLOBALS['-l10n']['eng']['FTR_CONTACT'] = 'Contact';
+$GLOBALS['-l10n']['eng']['FTR_HOURS'] = 'Opening hours';
+$GLOBALS['-l10n']['eng']['FTR_MON_FRI'] = 'Monday - Friday';
+$GLOBALS['-l10n']['eng']['FTR_NEWS'] = 'Newsletter sign-up';
+$GLOBALS['-l10n']['eng']['FTR_NEWS_BUTTON'] = 'Sign up';
+$GLOBALS['-l10n']['eng']['FTR_NEWS_TEXT'] = 'Sign up for news via e-mail';
+$GLOBALS['-l10n']['eng']['FTR_SAT_SUN'] = 'Saturday - Sunday';
+$GLOBALS['-l10n']['eng']['HDR_ABOUT'] = 'About Kukkuniiaat';
+$GLOBALS['-l10n']['eng']['HDR_INSTALL'] = 'Install Kukkuniiaat';
+$GLOBALS['-l10n']['eng']['HDR_SUBTITLE'] = 'The Language Secretariat of Greenland';
+$GLOBALS['-l10n']['eng']['HDR_SUPPORT'] = 'Support';
+$GLOBALS['-l10n']['eng']['HDR_TITLE'] = 'Oqaasileriffik';
+$GLOBALS['-l10n']['eng']['HDR_TOS_3RDPARTY'] = 'Google, Microsoft, Adobe, and other frontends, extensions, and add-ins';
+$GLOBALS['-l10n']['eng']['HDR_TOS_CONFIDENTIALITY'] = 'Confidentiality';
+$GLOBALS['-l10n']['eng']['HDR_TOS_PRIVACY'] = 'Privacy Policy';
+$GLOBALS['-l10n']['eng']['LBL_EMAIL_ALL'] = 'Oqaasileriffik';
+$GLOBALS['-l10n']['eng']['LBL_EMAIL_DEV'] = 'Developer';
+$GLOBALS['-l10n']['eng']['LBL_PRIVACY'] = 'Privacy policy';
+$GLOBALS['-l10n']['eng']['LBL_SUPPORT'] = 'Support';
+$GLOBALS['-l10n']['eng']['SITE_PRODUCT'] = 'Kukkuniiaat';
+$GLOBALS['-l10n']['eng']['SITE_SUBTITLE'] = 'Greenlandic Spell Checker';
+$GLOBALS['-l10n']['eng']['SITE_TITLE'] = 'Greenlandic Spell Checker &laquo; Kukkuniiaat &laquo; Oqaasileriffik';
+$GLOBALS['-l10n']['eng']['TXT_ABOUT_PDF'] = 'The technology behind Kukkuniiaat';
+$GLOBALS['-l10n']['eng']['TXT_COMING_SOON'] = 'coming soon';
+$GLOBALS['-l10n']['eng']['TXT_SIDELOAD_010'] = 'If you cannot find Kukkuniiaat in the Office Store or are in a domain where your administrator has to approve and roll out add-ins for employees, then you need to use these resources:';
+$GLOBALS['-l10n']['eng']['TXT_SIDELOAD_020'] = 'Add-in manifest:';
+$GLOBALS['-l10n']['eng']['TXT_SIDELOAD_030'] = 'Domain deployment:';
+$GLOBALS['-l10n']['eng']['TXT_SIDELOAD_040'] = 'Sideloading:';
+$GLOBALS['-l10n']['eng']['TXT_SUPPORT_CONTACT'] = 'If you need help you can contact us via the methods listed below.';
+$GLOBALS['-l10n']['eng']['TXT_TOS_3RDPARTY'] = 'While the various add-ins and extensions for e.g. Google Docs, Microsoft Word, Microsoft Outlook, or Adobe InDesign may request permissions to read your profile information from those services, this information is never transmitted to us. The frontends only use your profile to detect the initial user interface language, where possible.
+
+The data that we do receive and store are the paragraphs that you activate the add-in on, and only those paragraphs. If you activate the add-in on a subset of a larger document, we only receive that subset. We do not store any way to identify which document the paragraph is from, nor where in the document the paragraph was.';
+$GLOBALS['-l10n']['eng']['TXT_TOS_CONFIDENTIALITY'] = 'If you intend to use the services for confidential texts or texts with sensitive personal information, you can enable confidentiality from the options. If you need a high level of security for some other reason, please <a href="mailto:oqaasileriffik@oqaasileriffik.gl">contact us</a> to negotiate an individual solution.';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_010'] = 'Oqaasileriffik stores certain information from the service, for statistical purposes and further development of the program:';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_020'] = 'The whole input text';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_030'] = 'Corrections and correction suggestions';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_040'] = 'The user\'s IP-address';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_050'] = 'Date and time of processing';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_060'] = 'In addition, we store information about our customers as required by law, including full name and email address, and for commercial customers also a mailing address.';
+$GLOBALS['-l10n']['eng']['URL_ABOUT_PDF'] = 'https://oqaasileriffik.gl/wp-content/uploads/2011/02/Tekniken%20bag%20Kukkuniiaat%20(en).pdf';
