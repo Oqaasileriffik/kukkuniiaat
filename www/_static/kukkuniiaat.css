@@ -134,6 +134,11 @@ header h3 {
 	color: #547185;
 }
 
+div:target {
+	background-color: #ddd;
+	padding: 1ex;
+}
+
 footer {
 	margin-top: 2rem;
 	background-color: #d6d7d2;
