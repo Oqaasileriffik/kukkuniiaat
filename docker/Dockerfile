@@ -14,7 +14,7 @@ RUN apt-get install -qfy --no-install-recommends apt-utils
 RUN apt-get install -qfy --no-install-recommends wget ca-certificates
 RUN wget -q https://apertium.projectjj.com/apt/install-nightly.sh -O - | bash
 ARG CACHE_NONCE=1
-RUN echo "$CACHE_NONCE" && apt-get install -qfy --no-install-recommends \
+RUN echo "$CACHE_NONCE" && apt-get -qy update && apt-get install -qfy --no-install-recommends \
 		giella-kal \
 		divvun-gramcheck \
 		perl \
