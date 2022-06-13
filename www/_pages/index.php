@@ -9,9 +9,7 @@ g_root = true;
 <div class="d-flex justify-content-center my-3">
 <a class="btn btn-outline-primary mx-3 py-3" href="https://workspace.google.com/marketplace/app/kukkuniaat/173417079637" target="_blank"><img src="_static/frontend-google-editors-32.png"><br>Google Docs</a>
 <a class="btn btn-outline-primary mx-3 py-3" href="https://appsource.microsoft.com/product/office/WA104382089" target="_blank"><img src="_static/frontend-word-32.png"><br>Microsoft Word</a>
-<!--
-<a class="btn btn-outline-primary mx-3" href="#"><img src="_static/frontend-outlook-32.png"><br>Microsoft Outlook<br>(<i>{l10n:TXT_COMING_SOON}</i>)</a>
--->
+<a class="btn btn-outline-primary mx-3 py-3" href="https://appsource.microsoft.com/product/office/WA200004219"><img src="_static/frontend-outlook-32.png"><br>Microsoft Outlook</a>
 </div>
 
 <div class="text-center my-3">
@@ -29,7 +27,7 @@ g_root = true;
 <p>{l10n:TXT_SIDELOAD_010}</p>
 
 <ul>
-	<li>{l10n:TXT_SIDELOAD_020} <a href="/gas/1.0.3/mso.xml">mso.xml</a></li>
+	<li>{l10n:TXT_SIDELOAD_020} <a href="/gas/1.0.3/mso.xml">word.xml</a>, <a href="/gas/1.0.3/outlook.xml">outlook.xml</a></li>
 	<li>{l10n:TXT_SIDELOAD_030} <a href="https://docs.microsoft.com/office365/admin/manage/manage-deployment-of-add-ins">Manage deployment of add-ins</a></li>
 	<li>{l10n:TXT_SIDELOAD_040} <a href="https://docs.microsoft.com/office/dev/add-ins/testing/test-debug-office-add-ins#sideload-an-office-add-in-for-testing">Sideload an Office Add-in for testing</a></li>
 </ul>
