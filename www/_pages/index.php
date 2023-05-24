@@ -6,10 +6,12 @@ g_root = true;
 <div class="col my-3">
 <h3>{l10n:HDR_INSTALL}</h3>
 
-<div class="d-flex justify-content-center my-3">
+<div class="d-flex justify-content-center my-3 frontends">
 <a class="btn btn-outline-primary mx-3 py-3" href="https://workspace.google.com/marketplace/app/kukkuniaat/173417079637" target="_blank"><img src="_static/frontend-google-editors-32.png"><br>Google Docs</a>
 <a class="btn btn-outline-primary mx-3 py-3" href="https://appsource.microsoft.com/product/office/WA104382089" target="_blank"><img src="_static/frontend-word-32.png"><br>Microsoft Word</a>
 <a class="btn btn-outline-primary mx-3 py-3" href="https://appsource.microsoft.com/product/office/WA200004219"><img src="_static/frontend-outlook-32.png"><br>Microsoft Outlook</a>
+<a class="btn btn-outline-primary mx-3 py-3" href="/d/Kukkuniiaat.oxt"><img src="_static/frontend-libreoffice-60.png"><br>LibreOffice</a>
+<a class="btn btn-outline-primary mx-3 py-3" href="/d/Kukkuniiaat.oxt"><img src="_static/frontend-openoffice-160.png"><br>Apache OpenOffice</a>
 </div>
 
 <div class="text-center my-3">

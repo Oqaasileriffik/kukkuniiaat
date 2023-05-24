@@ -81,6 +81,9 @@ header h3 {
 .menu i.item {
 	padding-top: 5px;
 }
+.frontends img {
+	max-height: 32px;
+}
 @media screen and (max-width: 575px) {
 	header .logo {
 		padding-top: 10px;
@@ -163,10 +166,10 @@ footer {
 }
 .footer-title h2 {
 	display: inline-block;
-    color: #345165;
-    font-size: 1.3rem;
-    font-weight: 600;
-    text-transform: uppercase;
+	color: #345165;
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-transform: uppercase;
 	padding-bottom: .5em;
 	border-bottom: 1px solid #345165;
 	white-space: nowrap;
@@ -185,7 +188,7 @@ footer {
 }
 span.copyr {
 	font-size: 104%;
-    font-family: Roboto, Gudea, sans-serif;
+	font-family: Roboto, Gudea, sans-serif;
 }
 span.sep {
 	padding-left: .3em;
