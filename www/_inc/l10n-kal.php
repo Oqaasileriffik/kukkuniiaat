@@ -16,6 +16,16 @@ $GLOBALS['-l10n']['kal']['HDR_TOS_3RDPARTY'] = 'Google, Microsoft, Adobe, allall
 $GLOBALS['-l10n']['kal']['HDR_TOS_CONFIDENTIALITY'] = 'Ingerlatitseqqiinnginnissaq';
 $GLOBALS['-l10n']['kal']['HDR_TOS_PRIVACY'] = 'Inunnut paasissutissat pillugit politikki';
 $GLOBALS['-l10n']['kal']['HDR_TOS_TERMS'] = 'Atuisumut atugassarititaasut';
+$GLOBALS['-l10n']['kal']['HTML_LOAOO_020'] = '<li><a href="http://www.libreoffice.org/download/libreoffice-fresh/">LibreOffice</a> pigeriinngikkukku aajuk qarasaasiannullu ikkullugu</li>
+<li><a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SE</a> aajuk qarasaasiannullu ikkullugu</li>
+<li><a href="/d/Kukkuniiaat.oxt">Kukkuniiaat aajuk</a> (Qulaani ‘<b>Kukkuniiaat (54MiB)</b>‘-mik allassimasoq assigiinnarpaa)</li>
+<li style="text-align: left;"><b>LibreOffice</b> ammaruk kiisalu uku tuukkit: <em><b>Indstillinger</b></em>&nbsp; →&nbsp; <em><b>Avanceret</b></em> →&nbsp; <em><b>Java-indstillinger</b></em> → <b>Java</b> nutaanerpaaq toqqaruk</li><li>Uku iserfigikkit:<em><b> Funktioner</b></em> → <em><b>Udvidelsesadministration</b></em></li>
+<li><em><b>Tilføj</b></em> tooruk</li>
+<li><b>kukkuniiaat.oxt</b> toqqariarlugu <em><b>åbn</b></em> tooruk</li>
+<li><b>LibreOffice</b> qameriarlugu ikeqqiguk</li>
+<li><em><b>Indstillinger</b></em> iserfigeriarlugu <em><b>Sprogindstillinger</b></em>imi <em><b>Sprog</b></em> iserfigiuk</li>
+<li><em><b>Standardsprog for dokumenter</b></em>imi <b>kalaallisut</b> toqqaruk <b><em>Anvend</em></b> toorlugu</li>
+<li><b>Kukkuniiaat</b> atorsinnaanngorpat!</li>';
 $GLOBALS['-l10n']['kal']['LBL_EMAIL_ALL'] = 'Oqaasileriffik';
 $GLOBALS['-l10n']['kal']['LBL_EMAIL_DEV'] = 'Ineriartortitsisoq';
 $GLOBALS['-l10n']['kal']['LBL_PRIVACY'] = 'Inunnut paasissutissat pillugit politikki';
@@ -25,7 +35,7 @@ $GLOBALS['-l10n']['kal']['SITE_PRODUCT'] = 'Kukkuniiaat';
 $GLOBALS['-l10n']['kal']['SITE_SUBTITLE'] = 'Kalaallisut kukkuniiaat';
 $GLOBALS['-l10n']['kal']['SITE_TITLE'] = 'Kukkuniiaat &laquo; Oqaasileriffik';
 $GLOBALS['-l10n']['kal']['TXT_ABOUT_PDF'] = 'Kukkuniiaat pillugu paasissutissat';
-$GLOBALS['-l10n']['kal']['TXT_COMING_SOON'] = 'saqqummingajalerpoq';
+$GLOBALS['-l10n']['kal']['TXT_LOAOO_010'] = '<a href="https://oqaasileriffik.gl/wp-content/uploads/2017/03/Mac-ip-Kukkuniiaasernissaanut-ilitsersuut.pdf">Ilitsersuut (pdf)</a>';
 $GLOBALS['-l10n']['kal']['TXT_SIDELOAD_010'] = 'Office Storemi Kukkuniiaat nassaarisinnaanngikkaanni imaluunniit domæne-limmik attaveqaraanni aatsaat qarasaasiamut administratorinit akueriteqqaarlugu aallersinnaasumik innersuussissutit makku aqqutigineqassapput:';
 $GLOBALS['-l10n']['kal']['TXT_SUPPORT_CONTACT'] = 'Ikiorneqarnissamik pisariaqartitsiguit ataani allassimasut aqqutigalugit attaveqarfigisinnaavatsigut.';
 $GLOBALS['-l10n']['kal']['TXT_TOS_3RDPARTY'] = 'Google Docsimut, Microsoft Wordimut, Microsoft Outlookimut, Adobe InDesignimut programminik ilassutinik (udvidelser) allanillu qarasaasiap pisariaqartitaanik ilassutinik (add-ins) ineriartortitsisut programmit atukkatit aqqutigalugit paasissutissat uku piumasinnaavaat: atuisutut paasissutissat aamma inummut paasissutissat, taakkuli uatsinnut ingerlateqqinneqarnavianngillat. Programmit atukkatit taamaallaat atuisutut paasissutissatit atorlugit oqaatsit programmimi atorneqartussat eqqoriarnissaannut aallaqqaammut atorneqassapput.

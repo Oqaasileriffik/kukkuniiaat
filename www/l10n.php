@@ -14,7 +14,9 @@ $gdocs = [
 	];
 $csv = fopen('php://memory', 'w+b');
 foreach ($gdocs as $gd) {
-	fwrite($csv, file_get_contents($gd));
+	$gd = file_get_contents($gd);
+	$gd = str_replace("\r\n", "\n", $gd);
+	fwrite($csv, $gd);
 	fwrite($csv, "\n");
 }
 fseek($csv, 0);

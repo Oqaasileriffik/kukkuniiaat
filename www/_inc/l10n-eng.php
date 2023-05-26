@@ -16,6 +16,17 @@ $GLOBALS['-l10n']['eng']['HDR_TOS_3RDPARTY'] = 'Google, Microsoft, Adobe, and ot
 $GLOBALS['-l10n']['eng']['HDR_TOS_CONFIDENTIALITY'] = 'Confidentiality';
 $GLOBALS['-l10n']['eng']['HDR_TOS_PRIVACY'] = 'Privacy Policy';
 $GLOBALS['-l10n']['eng']['HDR_TOS_TERMS'] = 'Terms of Service';
+$GLOBALS['-l10n']['eng']['HTML_LOAOO_020'] = '<li>If you don’t have <a href="http://www.libreoffice.org/download/libreoffice-fresh/">LibreOffice</a> on your computer already, download it.</li>
+<li>Download <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SE</a> og install it on your computer</li>
+<li>Download <a href="/d/Kukkuniiaat.oxt">Kukkuniiaat</a> (It’s the same ‘<b>Spellchecker (54MiB)</b>‘ you can get above)</li>
+<li>Open<b> LibreOffice</b> then go to: <b><i><b>Preferences</b></i></b> → <b>A</b><b>d</b><b>vance</b><b>d</b> → <b>Java</b><b> Options</b> → choose the latest <b>Java</b></li>
+<li>Go to: <b><i><b>Tools</b></i></b> → <b><i><b>Extension Manager</b></i></b></li>
+<li>Choose <b><i><b>Add</b></i></b></li>
+<li>Choose <b>kukkuniiaat.oxt</b> and go to: <b><i><b>O</b></i></b><b><i><b>pen</b></i></b></li>
+<li>Quit <b>LibreOffice</b> and restart it</li>
+<li>Go to: <b><i><b>Preferences</b></i></b> and below <b><i><b>Language Settings</b></i></b><b>, </b>go to: <b><i><b>Languages</b></i></b></li>
+<li>On the: <b><i><b>Default</b></i></b> <b>Languages </b><b>for </b><b><i><b>D</b></i></b><b>o</b><b><i><b>c</b></i></b><b>ument</b><b><i><b>s</b></i></b> choose <b><i>K</i></b><b><i>alaallisut</i></b> then press the <em><b>Apply</b></em>-botton</li>
+<li><b>Kukkuniiaat</b> is ready to use!</li>';
 $GLOBALS['-l10n']['eng']['LBL_EMAIL_ALL'] = 'Oqaasileriffik';
 $GLOBALS['-l10n']['eng']['LBL_EMAIL_DEV'] = 'Developer';
 $GLOBALS['-l10n']['eng']['LBL_PRIVACY'] = 'Privacy policy';
@@ -25,7 +36,7 @@ $GLOBALS['-l10n']['eng']['SITE_PRODUCT'] = 'Kukkuniiaat';
 $GLOBALS['-l10n']['eng']['SITE_SUBTITLE'] = 'Greenlandic Spell Checker';
 $GLOBALS['-l10n']['eng']['SITE_TITLE'] = 'Greenlandic Spell Checker &laquo; Kukkuniiaat &laquo; Oqaasileriffik';
 $GLOBALS['-l10n']['eng']['TXT_ABOUT_PDF'] = 'The technology behind Kukkuniiaat';
-$GLOBALS['-l10n']['eng']['TXT_COMING_SOON'] = 'coming soon';
+$GLOBALS['-l10n']['eng']['TXT_LOAOO_010'] = '<a href="https://oqaasileriffik.gl/wp-content/uploads/2021/02/Instruction-to-Mac-about-Kukkuniiaat1.pdf">Guide for macOS (pdf)</a>';
 $GLOBALS['-l10n']['eng']['TXT_SIDELOAD_010'] = 'If you cannot find Kukkuniiaat in the Office Store or are in a domain where your administrator has to approve and roll out add-ins for employees, then you need to use these resources:';
 $GLOBALS['-l10n']['eng']['TXT_SIDELOAD_020'] = 'Add-in manifest:';
 $GLOBALS['-l10n']['eng']['TXT_SIDELOAD_030'] = 'Domain deployment:';

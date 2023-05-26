@@ -38,6 +38,17 @@ g_root = true;
 
 <div class="row">
 <div class="col my-3">
+<h3>LibreOffice / Apache OpenOffice</h3>
+<p>{l10n:TXT_LOAOO_010}</p>
+
+<ul>
+	{l10n:HTML_LOAOO_020}
+</ul>
+</div>
+</div>
+
+<div class="row">
+<div class="col my-3">
 <h3>{l10n:HDR_ABOUT}</h3>
 <div class="text-center my-3">
 <a class="btn btn-outline-primary" href="{l10n:URL_ABOUT_PDF}"><i class="bi bi-filetype-pdf"></i> {l10n:TXT_ABOUT_PDF} (pdf)</a>
