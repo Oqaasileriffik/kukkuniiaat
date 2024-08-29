@@ -80,6 +80,8 @@ while ($a === 'grammar') {
 
 	$rv['c'] = preg_replace('~<(/?s\d+)-\d+>~', '<$1>', $rv['c']);
 
+	$rv['v'] = 1;
+
 	break;
 }
 
