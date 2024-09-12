@@ -8,12 +8,6 @@ if (file_exists(__DIR__.'/l10n-dan.php')) {
 	require_once __DIR__.'/l10n-eng.php';
 }
 
-if (file_exists(RELROOT.'/inc/l10n-dan-local.php')) {
-	require_once RELROOT.'/inc/l10n-dan-local.php';
-	require_once RELROOT.'/inc/l10n-kal-local.php';
-	require_once RELROOT.'/inc/l10n-eng-local.php';
-}
-
 $GLOBALS['-a2-to-a3'] = array(
 	'da' => 'dan',
 	'kl' => 'kal',
