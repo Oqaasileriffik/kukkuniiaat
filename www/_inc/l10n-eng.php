@@ -13,7 +13,6 @@ $GLOBALS['-l10n']['eng']['HDR_SUBTITLE'] = 'The Language Secretariat of Greenlan
 $GLOBALS['-l10n']['eng']['HDR_SUPPORT'] = 'Support';
 $GLOBALS['-l10n']['eng']['HDR_TITLE'] = 'Oqaasileriffik';
 $GLOBALS['-l10n']['eng']['HDR_TOS_3RDPARTY'] = 'Google, Microsoft, Adobe, and other frontends, extensions, and add-ins';
-$GLOBALS['-l10n']['eng']['HDR_TOS_CONFIDENTIALITY'] = 'Confidentiality';
 $GLOBALS['-l10n']['eng']['HDR_TOS_PRIVACY'] = 'Privacy Policy';
 $GLOBALS['-l10n']['eng']['HDR_TOS_TERMS'] = 'Terms of Service';
 $GLOBALS['-l10n']['eng']['HTML_LOAOO_020'] = '<li>If you don’t have <a href="http://www.libreoffice.org/download/libreoffice-fresh/">LibreOffice</a> on your computer already, download it.</li>
@@ -44,14 +43,8 @@ $GLOBALS['-l10n']['eng']['TXT_SIDELOAD_040'] = 'Sideloading:';
 $GLOBALS['-l10n']['eng']['TXT_SUPPORT_CONTACT'] = 'If you need help you can contact us via the methods listed below.';
 $GLOBALS['-l10n']['eng']['TXT_TOS_3RDPARTY'] = 'While the various add-ins and extensions for e.g. Google Docs, Microsoft Word, Microsoft Outlook, or Adobe InDesign may request permissions to read your profile information from those services, this information is never transmitted to us. The frontends only use your profile to detect the initial user interface language, where possible.
 
-The data that we do receive and store are the paragraphs that you activate the add-in on, and only those paragraphs. If you activate the add-in on a subset of a larger document, we only receive that subset. We do not store any way to identify which document the paragraph is from, nor where in the document the paragraph was.';
-$GLOBALS['-l10n']['eng']['TXT_TOS_CONFIDENTIALITY'] = 'If you intend to use the services for confidential texts or texts with sensitive personal information, you can enable confidentiality from the options. If you need a high level of security for some other reason, please <a href="mailto:oqaasileriffik@oqaasileriffik.gl">contact us</a> to negotiate an individual solution.';
-$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_010'] = 'Oqaasileriffik stores certain information from the service, for statistical purposes and further development of the program:';
-$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_020'] = 'The whole input text';
-$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_030'] = 'Corrections and correction suggestions';
-$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_040'] = 'The user\'s IP-address';
-$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_050'] = 'Date and time of processing';
-$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY_060'] = 'In addition, we store information about our customers as required by law, including full name and email address, and for commercial customers also a mailing address.';
+The data that we do receive are the paragraphs that you activate the add-in on, and only those paragraphs. If you activate the add-in on a subset of a larger document, we only receive that subset. We do not store any way to identify which document the paragraph is from, nor where in the document the paragraph was.';
+$GLOBALS['-l10n']['eng']['TXT_TOS_PRIVACY'] = 'Oqaasileriffik doesn\'t store any of the data sent through the service.';
 $GLOBALS['-l10n']['eng']['TXT_TOS_TERMS_010'] = 'Kukkuniiaat is a public service developed and run by Oqaasileriffik, the Language Secretariat of the Government of Greenland, and is made available free of charge for all users and uses.';
 $GLOBALS['-l10n']['eng']['TXT_TOS_TERMS_020'] = 'We reserve the right to deny access to anyone using the service in a manner that may impede availability, including, but not limited to, batch access or reselling.';
 $GLOBALS['-l10n']['eng']['TXT_TOS_TERMS_030'] = 'The service is open source available at <a href="https://github.com/Oqaasileriffik/kukkuniiaat">https://github.com/Oqaasileriffik/kukkuniiaat</a>. Anyone may obtain the backend and run their own copy of the service.';

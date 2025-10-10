@@ -13,7 +13,6 @@ $GLOBALS['-l10n']['dan']['HDR_SUBTITLE'] = 'Grønlands Sprogsekretariat';
 $GLOBALS['-l10n']['dan']['HDR_SUPPORT'] = 'Support';
 $GLOBALS['-l10n']['dan']['HDR_TITLE'] = 'Oqaasileriffik';
 $GLOBALS['-l10n']['dan']['HDR_TOS_3RDPARTY'] = 'Google, Microsoft, Adobe, og andre brugerflader, udvidelser, og add-ins';
-$GLOBALS['-l10n']['dan']['HDR_TOS_CONFIDENTIALITY'] = 'Fortrolighed';
 $GLOBALS['-l10n']['dan']['HDR_TOS_PRIVACY'] = 'Privatlivspolitik';
 $GLOBALS['-l10n']['dan']['HDR_TOS_TERMS'] = 'Anvendelsesvilkår';
 $GLOBALS['-l10n']['dan']['HTML_LOAOO_020'] = '<li>Hent <a href="http://www.libreoffice.org/download/libreoffice-fresh/">LibreOffice</a> hvis du ikke har den i forvejen og installer den på din computer</li>
@@ -44,14 +43,8 @@ $GLOBALS['-l10n']['dan']['TXT_SIDELOAD_040'] = 'Sideloading:';
 $GLOBALS['-l10n']['dan']['TXT_SUPPORT_CONTACT'] = 'Hvis du har brug for hjælp kan du kontakte os via nedenstående.';
 $GLOBALS['-l10n']['dan']['TXT_TOS_3RDPARTY'] = 'Diverse add-ins og udvidelser til Google Docs, Microsoft Word, Microsoft Outlook, Adobe InDesign, og andre, kan bede om tilladelse til at læse din profil og persondata fra disse services, men denne information bliver aldrig sendt til os. Brugerfladerne benytter kun din profil til at gætte på hvilket sprog brugerfladen i første omgang skal vises på.
 
-De data vi modtager og gemmer er de paragraffer som du aktiverer udvidelsen på, og kun de paragraffer. Hvis du aktiverer udvidelsen på en delmængde af et større dokument, så modtager vi kun den delmængde. Vi gemmer ikke data til at kunne identificere, hvilket dokument en given paragraf kommer fra, eller hvor i dokumentet en paragraf var.';
-$GLOBALS['-l10n']['dan']['TXT_TOS_CONFIDENTIALITY'] = 'Hvis du vil benytte servicen til fortrolige tekster eller tekster med følsomme persondata, kan du slå fortrolighed til fra indstillingerne. Hvis du har brug for en højere grad af sikkerhed af andre grunde, så <a href="mailto:oqaasileriffik@oqaasileriffik.gl">kontakt os</a> for at forhandle en skæddersyget løsning.';
-$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY_010'] = 'Oqaasileriffik gemmer en del information vedrørende de tekster der sendes igennem servicen. Dette inkluderer følgende, men ikke kun følgende:';
-$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY_020'] = 'Selve teksten i sin helhed';
-$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY_030'] = 'Rettelserne';
-$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY_040'] = 'Brugerens IP-adresse';
-$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY_050'] = 'Det præcise tidspunkt hvor rettelsen blev udført';
-$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY_060'] = 'Derudover gemmer vi kundeinformation som påkrævet per lov, nemlig kundens fulde navn og emailadresse, og for kommercielle kunder også deres postadresse.';
+De data vi modtager er de paragraffer som du aktiverer udvidelsen på, og kun de paragraffer. Hvis du aktiverer udvidelsen på en delmængde af et større dokument, så modtager vi kun den delmængde. Vi gemmer ikke data til at kunne identificere, hvilket dokument en given paragraf kommer fra, eller hvor i dokumentet en paragraf var.';
+$GLOBALS['-l10n']['dan']['TXT_TOS_PRIVACY'] = 'Oqaasileriffik gemmer ingen af de data der sendes gennem servicen.';
 $GLOBALS['-l10n']['dan']['TXT_TOS_TERMS_010'] = 'Kukkuniiaat er en public service udviklet og udbudt af Oqaasileriffik, sprogsekretariatet i Grønlands Selvstyre. Servicen er gratis tilgængelig for alle brugere og formål.';
 $GLOBALS['-l10n']['dan']['TXT_TOS_TERMS_020'] = 'Vi forbeholder os retten til at lukke for adgang til enhver som bruger servicen på en måde der kunne forstyrre stabiliteten. Dette gælder bl.a. automatisk brug eller videresalg.';
 $GLOBALS['-l10n']['dan']['TXT_TOS_TERMS_030'] = 'Servicen er open source og kan fås på <a href="https://github.com/Oqaasileriffik/kukkuniiaat">https://github.com/Oqaasileriffik/kukkuniiaat</a>. Alle har lov til at hente og installere servicen på deres egne maskiner.';
